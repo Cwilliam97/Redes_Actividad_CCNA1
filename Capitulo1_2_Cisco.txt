@@ -19,3 +19,20 @@ transmitir sus señales, eliminando la necesidad de mantener redes separadas par
 de servicio.
 
 
+3. Investigar qué son las redes orientadas y no orientadas a la conexión.  
+
+Redes orientadas a la conexión: En este tipo de redes, se establece una conexión dedicada y continua entre 
+el origen y el destino antes de que se pueda transmitir cualquier dato. Esta conexión se mantiene durante 
+toda la duración de la comunicación y se reserva un ancho de banda específico para esa conexión. 
+
+Un ejemplo de red orientada a la conexión es el sistema telefónico conmutado por circuito, donde se 
+establece un circuito dedicado para una llamada telefónica y se mantiene abierto hasta que se finaliza la 
+llamada. 
+
+Redes no orientadas a la conexión: En este tipo de redes, no se establece una conexión dedicada antes de la
+transmisión de datos. En cambio, los datos se dividen en paquetes individuales y se envían de manera 
+independiente a través de la red. Cada paquete contiene información de direccionamiento que indica su 
+origen y destino, lo que permite que los paquetes sigan rutas diferentes y se reensamblen en el destino 
+final. Un ejemplo de red no orientada a la conexión es Internet, donde los datos se transmiten en forma de 
+paquetes a través de la red sin la necesidad de una conexión dedicada. 
+
