@@ -97,4 +97,23 @@ puerto especializado en un dispositivo de internetworking que se utiliza para in
 redes y enrutar los datos entre ellas. 
 
 
+6. Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
+
+RTA:
+Una Unidad de Datos del Protocolo (PDU, por sus siglas en inglés) es una unidad de información que se 
+utiliza en la comunicación de datos a través de una red. Es la unidad básica de información que se envía 
+y se recibe entre los dispositivos de una red. 
+
+La PDU puede variar dependiendo del protocolo utilizado. Por ejemplo, en el modelo TCP/IP, la PDU se 
+denomina segmento en la capa de transporte (TCP) y datagrama en la capa de red (IP). En el modelo OSI, 
+la PDU se denomina trama en la capa de enlace de datos y paquete en la capa de red. 
+
+La PDU contiene los datos que se transmiten, así como la información de control necesaria para su correcta 
+entrega y procesamiento en la capa correspondiente. Esta información de control puede incluir direcciones 
+de origen y destino, números de secuencia, información de error y otros campos necesarios para el 
+funcionamiento del protocolo.
+ 
+En resumen, una Unidad de Datos del Protocolo (PDU) es la unidad básica de información que se envía y se 
+recibe en una red. Varía dependiendo del protocolo utilizado y contiene los datos y la información de 
+control necesaria para su correcta entrega y procesamiento. 
 
