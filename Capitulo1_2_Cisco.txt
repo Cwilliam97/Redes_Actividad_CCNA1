@@ -117,3 +117,23 @@ En resumen, una Unidad de Datos del Protocolo (PDU) es la unidad básica de info
 recibe en una red. Varía dependiendo del protocolo utilizado y contiene los datos y la información de 
 control necesaria para su correcta entrega y procesamiento. 
 
+8. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
+RTA:
+Los modelos de protocolo y modelos de referencia son dos tipos básicos de modelos de networking.  
+Un modelo de protocolo proporciona un modelo que coincide fielmente con la estructura de una suite de 
+protocolo en particular. El conjunto jerárquico de protocolos relacionados en una suite representa 
+típicamente toda la funcionalidad requerida para interconectar la red humana con la red de datos. 
+Por ejemplo, el modelo TCP/IP es un modelo de protocolo porque describe las funciones que se producen en 
+cada capa de los protocolos dentro del conjunto TCP/IP.  
+
+Por otro lado, un modelo de referencia proporciona una referencia común para mantener consistencia en todos 
+los tipos de protocolos y servicios de red. Un modelo de referencia no está pensado para ser una 
+especificación de implementación ni para proporcionar un nivel de detalle suficiente para definir de 
+precisa los servicios de la arquitectura de red. El propósito principal de un modelo de referencia es 
+asistir en la comprensión más clara de las funciones y los procesos involucrados. El modelo de interconexión
+ de sistema abierto (OSI) es un ejemplo de modelo de referencia de internetwork ampliamente conocido. 
+
+En resumen, la principal diferencia entre los modelos de protocolo y modelos de referencia es que los 
+modelos de protocolo se centran en describir los protocolos específicos de una suite de protocolos, 
+mientras que los modelos de referencia proporcionan una referencia común para mantener la consistencia en 
+todos los tipos de protocolos y servicios de red. 
