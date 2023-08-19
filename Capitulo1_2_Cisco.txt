@@ -67,3 +67,34 @@ Internetwork: Una internetwork es una red de redes interconectadas. Es una infra
 comunicación entre diferentes redes, ya sean LAN o WAN. Las internetworks se crean mediante la interconexión
 de dispositivos de red, como Reuters, que enrutan los datos entre las diferentes redes. Un ejemplo común de
 internetwork es Internet, que es una red global de redes. 
+
+
+4. Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
+RTA:
+La diferencia entre una Tarjeta de Interfaz de Red (NIC), un puerto físico y una interfaz de red radica en 
+su función y ubicación en la estructura de una red. 
+
+Tarjeta de Interfaz de Red (NIC): Una Tarjeta de Interfaz de Red, también conocida como adaptador de red, 
+es un dispositivo que se inserta en un dispositivo final, como una computadora o un servidor, para 
+proporcionar la conexión física con la red. La NIC se encarga de convertir los datos en un formato adecuado
+para ser transmitidos a través del medio de transmisión, como cables de cobre o fibra óptica. 
+Es responsable de enviar y recibir datos entre el dispositivo final y la red. 
+
+Puerto físico: Un puerto físico es un conector o toma en un dispositivo de red donde se conecta el medio de
+transmisión, como un cable Ethernet. Los puertos físicos se encuentran en los dispositivos de red, como 
+Reuters, switches y puntos de acceso inalámbrico. Cada puerto físico está asociado con una interfaz de red 
+específica y permite la conexión de dispositivos finales o la interconexión de dispositivos de red. 
+
+Interfaz de red: Una interfaz de red es un puerto especializado en un dispositivo de internetworking, como 
+un Reuter, que se conecta con redes individuales. Las interfaces de red son los puertos de un Router que se 
+utilizan para interconectar diferentes redes y enrutar los datos entre ellas. Cada interfaz de red está 
+asociada con un puerto físico y tiene una dirección IP única para identificarla en la red. 
+
+En resumen, una Tarjeta de Interfaz de Red (NIC) es un dispositivo que se inserta en un dispositivo final 
+para proporcionar la conexión física con la red, mientras que un puerto físico es un conector en un 
+dispositivo de red donde se conecta el medio de transmisión. Por otro lado, una interfaz de red es un 
+puerto especializado en un dispositivo de internetworking que se utiliza para interconectar diferentes 
+redes y enrutar los datos entre ellas. 
+
+
+
