@@ -50,3 +50,12 @@ Servicios de red: Son los servicios que se proporcionan a través de la red, com
 
 La combinación de estos componentes permite la comunicación exitosa en una red, ya sea a nivel local (LAN) o a nivel global (Internet). Cada componente desempeña un papel importante en la transferencia de datos y la conectividad entre los dispositivos de la red. 
 
+
+3. ¿Cuál es la diferencia entre INTERNETWORK E INTERNET? 
+La diferencia entre "internetwork" e "Internet" radica en su alcance y función. 
+Internetwork: El término "internetwork" se refiere a una red de redes interconectadas. Es una infraestructura que permite la comunicación entre diferentes redes, ya sean LAN o WAN. Las internetworks se crean mediante la interconexión de dispositivos de red, como Reuters, que enrutan los datos entre las diferentes redes. El término "internetwork" se utiliza para describir la estructura y la interconexión de múltiples redes, sin especificar una red en particular. 
+
+Internet: Por otro lado, "Internet" es una red global de redes interconectadas que permite la comunicación a nivel mundial. Es la red más conocida y utilizada, y se crea mediante la interconexión de redes pertenecientes a proveedores de servicios de Internet (ISP). Internet es de acceso público y permite a los usuarios acceder a una amplia gama de servicios y recursos, como correo electrónico, navegación web, transferencia de archivos, entre otros. 
+
+En resumen, "internetwork" es un término más general que describe la interconexión de redes, mientras que "Internet" se refiere específicamente a la red global de redes interconectadas que utilizamos a diario. 
+
