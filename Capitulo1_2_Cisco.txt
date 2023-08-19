@@ -65,3 +65,10 @@ Se dice que un protocolo es independiente de la tecnología porque describe las 
 
 Por ejemplo, el protocolo HTTP (Hypertext Transfer Protocol) se utiliza para la comunicación entre un cliente y un servidor en la web. HTTP define cómo se deben solicitar y enviar recursos web, pero no especifica qué tecnología o lenguaje de programación se debe utilizar para implementar un servidor web o un navegador. Esto permite que HTTP sea independiente de la tecnología y se pueda utilizar en diferentes plataformas y sistemas 
 
+7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo). 
+
+Los protocolos desempeñan un papel fundamental en las comunicaciones de redes al establecer las reglas y los estándares que permiten que los dispositivos se comuniquen entre sí de manera efectiva. Los protocolos definen cómo se deben formatear, enviar, recibir y procesar los datos en una red. Proporcionan un conjunto de reglas comunes que los dispositivos deben seguir para garantizar una comunicación exitosa. 
+
+El proceso de encapsulamiento de datos es una técnica utilizada en las redes para agregar información de control adicional a los datos antes de ser transmitidos. Cada capa del modelo TCP/IP agrega su propia información de control a los datos, creando así una estructura en capas conocida como Protocol Data Unit (PDU). El encapsulamiento de datos permite que los datos sean transmitidos de manera eficiente y segura a través de la red. 
+(La imagen esta en el documento PDF).    
+
