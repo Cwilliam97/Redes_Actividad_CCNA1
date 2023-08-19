@@ -36,3 +36,34 @@ origen y destino, lo que permite que los paquetes sigan rutas diferentes y se re
 final. Un ejemplo de red no orientada a la conexión es Internet, donde los datos se transmiten en forma de 
 paquetes a través de la red sin la necesidad de una conexión dedicada. 
 
+
+2. Comparar y contrastar los siguientes términos: RED, LAN, WAN,
+INTERNETWORK E INTERNET.
+
+RTA: 
+Los términos "red", "LAN", "WAN", "internetwork" e "Internet" están relacionados con la interconexión de 
+dispositivos y la comunicación de datos, pero tienen diferencias en cuanto a su alcance y características. 
+A continuación, se compara y contrasta cada uno de estos términos: 
+
+Red: Una red es un conjunto de dispositivos interconectados que pueden comunicarse entre sí para compartir 
+recursos y datos. Puede ser una red local (LAN) o una red amplia (WAN). Una red puede ser privada, como una 
+red doméstica o empresarial, o pública, como Internet. Las redes pueden utilizar diferentes tecnologías 
+y protocolos para permitir la comunicación entre los dispositivos. 
+
+LAN (Local Área Network): Una LAN es una red de área local que abarca un área geográfica limitada, como una 
+oficina, un edificio o un campus. Está diseñada para permitir la comunicación entre dispositivos en un área 
+cercana y generalmente es propiedad y está controlada por una organización. Las LAN suelen ser rápidas 
+y confiables, y se utilizan para compartir recursos como archivos, impresoras y conexiones a Internet 
+dentro de una organización. 
+
+WAN (Wide Área Network): Una WAN es una red de área amplia que abarca un área geográfica más grande, como 
+una ciudad, un país o incluso a nivel global. Conecta múltiples LAN y permite la comunicación entre 
+dispositivos en diferentes ubicaciones geográficas. Las WAN suelen utilizar servicios de telecomunicaciones,
+como líneas telefónicas, fibra óptica o conexiones inalámbricas, para transmitir datos a larga distancia. 
+Ejemplos de WAN incluyen redes de sucursales de una empresa o la infraestructura de telecomunicaciones que 
+conecta diferentes países  
+
+Internetwork: Una internetwork es una red de redes interconectadas. Es una infraestructura que permite la 
+comunicación entre diferentes redes, ya sean LAN o WAN. Las internetworks se crean mediante la interconexión
+de dispositivos de red, como Reuters, que enrutan los datos entre las diferentes redes. Un ejemplo común de
+internetwork es Internet, que es una red global de redes. 
