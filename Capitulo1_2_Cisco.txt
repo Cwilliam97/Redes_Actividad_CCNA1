@@ -19,29 +19,43 @@ red. En una red convergente, el diferente servicio de comunicación utiliza la m
 transmitir sus señales, eliminando la necesidad de mantener redes separadas para cada tipo 
 de servicio.
 
-
 2. Describir las características de las arquitecturas de red: tolerante a fallas, escalabilidad, calidad del servicio y seguridad. Mostrar sus respectivos ejemplos. 
 
-RTA: Tolerancia fallos: una arquitectura de red tolerante a fallas es capaz de mantener la conectividad y el funcionamiento de la red incluso en casos de que ocurran fallos. En los dispositivos o enlaces de la red. Esto se logra mediante la implementación de redundancia en los componentes críticos de la red, de manera que, si un dispositivo o enlace falla, la red puede redirigir el tráfico de rutas alternativas. 
+RTA: 
+Tolerancia fallos: una arquitectura de red tolerante a fallas es capaz de mantener la conectividad y el 
+funcionamiento de la red incluso en casos de que ocurran fallos. En los dispositivos o enlaces de la red. 
+Esto se logra mediante la implementación de redundancia en los componentes críticos de la red, de manera 
+que, si un dispositivo o enlace falla, la red puede redirigir el tráfico de rutas alternativas. 
 
-Un ejemplo de esto es el protocolo de enrutamiento OSPF (Open Shortest Path First), utiliza algoritmos para calcular la ruta más eficiente y alternativas en caso de fallas en la red. 
+Un ejemplo de esto es el protocolo de enrutamiento OSPF (Open Shortest Path First), utiliza algoritmos para 
+calcular la ruta más eficiente y alternativas en caso de fallas en la red. 
 
-Escalabilidad: una arquitectura de red escalable escapaz de crecer y adaptarse a medida que aumenta la demanda de usuarios y servicios en la red. Esto implica que la red puede soportar un mayor número de dispositivos y usuarios sin degradar su rendimiento. 
+Escalabilidad: una arquitectura de red escalable escapaz de crecer y adaptarse a medida que aumenta la 
+demanda de usuarios y servicios en la red. Esto implica que la red puede soportar un mayor número de 
+dispositivos y usuarios sin degradar su rendimiento. 
 
-Un ejemplo de esto es la tecnología virtualización de redes, que permite crear redes virtuales dentro de una infraestructura física compartida, lo que facilita la escalabilidad al permitir la creación y gestión de las redes de manera más eficiente. 
+Un ejemplo de esto es la tecnología virtualización de redes, que permite crear redes virtuales dentro de 
+una infraestructura física compartida, lo que facilita la escalabilidad al permitir la creación y gestión 
+de las redes de manera más eficiente. 
 
-Calidad de servicios (QoS): Una arquitectura de red con calidad del servicio garantiza que los diferentes tipos tráfico (como voz, video, datos) sean tratados de manera prioritaria y se les asigne los recursos necesarios para garantizar un rendimiento optimo. Esto implica implementación de mecanismos de priorización, control de congestión y gestión de ancho de banda. 
+Calidad de servicios (QoS): Una arquitectura de red con calidad del servicio garantiza que los diferentes 
+tipos tráfico (como voz, video, datos) sean tratados de manera prioritaria y se les asigne los recursos 
+necesarios para garantizar un rendimiento optimo. Esto implica implementación de mecanismos de priorización,
+control de congestión y gestión de ancho de banda. 
 
-Un ejemplo de esto es el protocolo de control de admisión de llamadas (CAC) en la red de voz sobre IP (VoIP), se encarga de controlar la cantidad de llamadas que se pueden realizar simultáneamente para evitar la congestión de la red y garantizar una calidad de voz adecuada. 
+Un ejemplo de esto es el protocolo de control de admisión de llamadas (CAC) en la red de voz sobre IP 
+(VoIP), se encarga de controlar la cantidad de llamadas que se pueden realizar simultáneamente para evitar 
+la congestión de la red y garantizar una calidad de voz adecuada. 
 
-Seguridad: Una arquitectura de red segura protege la información y los recursos de la red contra accesos no autorizados, ataques y amenaza. Esto implica la implementación de muchas herramientas y procedimientos para combatir los defectos de seguridad inherente en la arquitectura de red. 
+Seguridad: Una arquitectura de red segura protege la información y los recursos de la red contra accesos no
+autorizados, ataques y amenaza. Esto implica la implementación de muchas herramientas y procedimientos para
+combatir los defectos de seguridad inherente en la arquitectura de red. 
 
-Un ejemplo de esto puede ser el fortalecimiento de la seguridad del Reuter con un sólido inicio de sesión y cambiando las credenciales predeterminadas. 
-
-
+Un ejemplo de esto puede ser el fortalecimiento de la seguridad del Reuter con un sólido inicio de sesión y
+cambiando las credenciales predeterminadas. 
 
 3. Investigar qué son las redes orientadas y no orientadas a la conexión.  
-
+RTA:
 Redes orientadas a la conexión: En este tipo de redes, se establece una conexión dedicada y continua entre 
 el origen y el destino antes de que se pueda transmitir cualquier dato. Esta conexión se mantiene durante 
 toda la duración de la comunicación y se reserva un ancho de banda específico para esa conexión. 
@@ -57,6 +71,67 @@ origen y destino, lo que permite que los paquetes sigan rutas diferentes y se re
 final. Un ejemplo de red no orientada a la conexión es Internet, donde los datos se transmiten en forma de 
 paquetes a través de la red sin la necesidad de una conexión dedicada. 
 
+
+4. Describa que es la calidad del servicio y responda: ¿Por qué importa la calidad del servicio en una red de datos? 
+
+La calidad de servicio (QoS) en una red de datos se refiere a la capacidad de la red para proporcionar un 
+rendimiento óptimo y confiable a diferentes tipos de tráfico, como voz, video y datos. Se trata de 
+garantizar que los servicios y aplicaciones en la red cumplan con los requisitos de rendimiento y 
+confiabilidad necesarios para satisfacer las necesidades de los usuarios. 
+
+La calidad de servicio es importante en una red de datos por varias razones: 
+
+Rendimiento: La QoS permite priorizar y asignar recursos adecuados a diferentes tipos de tráfico, lo que 
+garantiza un rendimiento óptimo para aplicaciones sensibles al tiempo, como llamadas de voz o 
+videoconferencias. Esto evita retrasos, interrupciones o pérdida de calidad en la transmisión de datos. 
+
+Confianza: La QoS asegura que los servicios críticos y las aplicaciones de misión crítica tengan prioridad
+y estén protegidos contra congestiones y cuellos de botella en la red. Esto garantiza una comunicación 
+confiable y continua, especialmente en entornos donde la interrupción del servicio puede tener 
+consecuencias graves, como en sistemas de control de procesos industriales o en servicios de emergencia. 
+
+Utilización eficiente de recursos: La QoS permite administrar y asignar los recursos de la red de manera 
+eficiente, evitando el desperdicio de ancho de banda y asegurando que los recursos estén disponibles para 
+las aplicaciones y servicios que los necesitan. Esto ayuda a optimizar el rendimiento general de la red y 
+a reducir costos. 
+
+Satisfacción del usuario: La QoS mejora la experiencia del usuario al garantizar un rendimiento consistente
+y confiable de los servicios y aplicaciones en la red. Esto se traduce en una mayor satisfacción del 
+usuario, lo que a su vez puede tener un impacto positivo en la productividad y la reputación de una 
+organización. 
+
+
+
+Lectura Capitulo 2
+
+1. Describir la estructura de una red, incluidos los dispositivos, medios y servicios necesarios para 
+lograr comunicaciones exitosas. 
+
+La estructura de una red incluye una variedad de dispositivos, medios y servicios que son necesarios para
+lograr comunicaciones exitosas. Estos componentes trabajan juntos para permitir la transferencia de datos y
+la conectividad entre los dispositivos de la red. Algunos de los componentes clave son: 
+
+Dispositivos finales: Estos son los dispositivos que se conectan a la red para enviar y recibir datos. 
+Incluyen computadoras, teléfonos inteligentes, tabletas, impresoras, servidores, entre otros. 
+
+Dispositivos de red: Estos dispositivos se utilizan para interconectar los dispositivos finales y permitir
+la comunicación en la red. Algunos ejemplos son los routers, switches, puntos de acceso inalámbrico, 
+firewalls y gateways. 
+
+Medios de transmisión: Son los medios físicos o inalámbricos a través de los cuales se transmiten los datos
+en la red. Pueden ser cables de cobre, cables de fibra óptica o conexiones inalámbricas como Wi-Fi o 
+Bluetooth. 
+
+Protocolos de red: Son conjuntos de reglas y estándares que permiten la comunicación entre los dispositivos
+en la red. Estos protocolos definen cómo se envían, reciben y procesan los datos. Algunos ejemplos son 
+TCP/IP, Ethernet, Wi-Fi, DNS, HTTP, entre otros. 
+
+Servicios de red: Son los servicios que se proporcionan a través de la red, como el acceso a Internet, 
+correo electrónico, transferencia de archivos, voz sobre IP (VoIP), videoconferencias, entre otros. 
+
+La combinación de estos componentes permite la comunicación exitosa en una red, ya sea a nivel local (LAN)
+o a nivel global (Internet). Cada componente desempeña un papel importante en la transferencia de datos 
+y la conectividad entre los dispositivos de la red. 
 
 2. Comparar y contrastar los siguientes términos: RED, LAN, WAN,
 INTERNETWORK E INTERNET.
@@ -89,6 +164,22 @@ comunicación entre diferentes redes, ya sean LAN o WAN. Las internetworks se cr
 de dispositivos de red, como Reuters, que enrutan los datos entre las diferentes redes. Un ejemplo común de
 internetwork es Internet, que es una red global de redes. 
 
+3. ¿Cuál es la diferencia entre INTERNETWORK E INTERNET? 
+La diferencia entre "internetwork" e "Internet" radica en su alcance y función. 
+Internetwork: El término "internetwork" se refiere a una red de redes interconectadas. Es una 
+infraestructura que permite la comunicación entre diferentes redes, ya sean LAN o WAN. Las internetworks 
+se crean mediante la interconexión de dispositivos de red, como Reuters, que enrutan los datos entre las 
+diferentes redes. El término "internetwork" se utiliza para describir la estructura y la interconexión de 
+múltiples redes, sin especificar una red en particular. 
+
+Internet: Por otro lado, "Internet" es una red global de redes interconectadas que permite la comunicación
+a nivel mundial. Es la red más conocida y utilizada, y se crea mediante la interconexión de redes 
+pertenecientes a proveedores de servicios de Internet (ISP). Internet es de acceso público y permite a los
+usuarios acceder a una amplia gama de servicios y recursos, como correo electrónico, navegación web, 
+transferencia de archivos, entre otros. 
+
+En resumen, "internetwork" es un término más general que describe la interconexión de redes, mientras que
+"Internet" se refiere específicamente a la red global de redes interconectadas que utilizamos a diario. 
 
 4. Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
 RTA:
@@ -117,6 +208,21 @@ dispositivo de red donde se conecta el medio de transmisión. Por otro lado, una
 puerto especializado en un dispositivo de internetworking que se utiliza para interconectar diferentes 
 redes y enrutar los datos entre ellas. 
 
+
+5. ¿Por qué se dice que un protocolo es independiente de la tecnología? 
+
+Se dice que un protocolo es independiente de la tecnología porque describe las funciones y reglas de 
+comunicación sin especificar cómo se deben implementar esas funciones en un medio o tecnología específica.
+Un protocolo define qué funciones deben realizarse, pero no cómo realizarlas. Esto permite que un 
+protocolo sea utilizado en diferentes tecnologías y medios de transmisión sin necesidad de modificarlo. 
+
+Por ejemplo, el protocolo HTTP (Hypertext Transfer Protocol) se utiliza para la comunicación entre un 
+cliente y un servidor en la web. HTTP define cómo se deben solicitar y enviar recursos web, pero no 
+especifica qué tecnología o lenguaje de programación se debe utilizar para implementar un servidor web o un
+navegador. Esto permite que HTTP sea independiente de la tecnología y se pueda utilizar en diferentes
+plataformas y sistemas 
+
+
 6.Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
 
 RTA:
@@ -136,6 +242,23 @@ funcionamiento del protocolo.
 En resumen, una Unidad de Datos del Protocolo (PDU) es la unidad básica de información que se envía y se 
 recibe en una red. Varía dependiendo del protocolo utilizado y contiene los datos y la información de 
 control necesaria para su correcta entrega y procesamiento. 
+
+7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de 
+encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP 
+mediante un dibujo). 
+
+Los protocolos desempeñan un papel fundamental en las comunicaciones de redes al establecer las reglas y 
+los estándares que permiten que los dispositivos se comuniquen entre sí de manera efectiva. Los protocolos 
+definen cómo se deben formatear, enviar, recibir y procesar los datos en una red. Proporcionan un conjunto 
+de reglas comunes que los dispositivos deben seguir para garantizar una comunicación exitosa. 
+
+El proceso de encapsulamiento de datos es una técnica utilizada en las redes para agregar información de 
+control adicional a los datos antes de ser transmitidos. Cada capa del modelo TCP/IP agrega su propia
+información de control a los datos, creando así una estructura en capas conocida como Protocol Data Unit
+(PDU). El encapsulamiento de datos permite que los datos sean transmitidos de manera eficiente y segura a 
+través de la red.
+ 
+(La imagen esta en el documento PDF).
 
 8. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
 RTA:
@@ -157,4 +280,25 @@ En resumen, la principal diferencia entre los modelos de protocolo y modelos de 
 modelos de protocolo se centran en describir los protocolos específicos de una suite de protocolos, 
 mientras que los modelos de referencia proporcionan una referencia común para mantener la consistencia en 
 todos los tipos de protocolos y servicios de red. 
+
+
+9. Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
+ 
+En el modelo TCP/IP, las cuatro capas son:  
+
+1. Capa de aplicación: esta capa proporciona servicios de red a las aplicaciones de usuario. Los protocolos comunes de esta capa incluyen HTTP, FTP, SMTP y Telnet.  
+2. Capa de transporte: esta capa proporciona servicios de transporte de extremo a extremo, como la segmentación y el control de flujo. Los protocolos comunes de esta capa incluyen TCP y UDP. 
+3. Capa de Internet: esta capa proporciona servicios de enrutamiento y direccionamiento de paquetes a través de la red. El protocolo común de esta capa es el Protocolo de Internet (IP). 
+4. Capa de acceso a la red: esta capa proporciona servicios de acceso a la red física, como la transmisión de bits a través de un medio físico. Los protocolos comunes de esta capa incluyen Ethernet y Wi-Fi.  
+
+En el modelo OSI, las siete capas son:  
+
+1. Capa física: esta capa se encarga de la transmisión de bits a través de un medio físico.  
+2. Capa de enlace de datos: esta capa proporciona servicios de acceso al medio y control de errores. Los protocolos comunes de esta capa incluyen el protocolo de control de enlace lógico (LLC) y el protocolo de control de acceso al medio (MAC). 
+3. Capa de red: esta capa proporciona servicios de enrutamiento y direccionamiento de paquetes a través de la red. El protocolo común de esta capa es el Protocolo de Internet (IP). 
+4. Capa de transporte: esta capa proporciona servicios de transporte de extremo a extremo, como la segmentación y el control de flujo. Los protocolos comunes de esta capa incluyen TCP y UDP.
+5. Capa de sesión: esta capa proporciona servicios de establecimiento, mantenimiento y finalización de sesiones entre dispositivos de red.
+6. Capa de presentación: esta capa proporciona servicios de representación de datos, como la codificación y decodificación de datos. 
+7. Capa de aplicación: Su función principal es permitir la comunicación y la interoperabilidad entre las aplicaciones en diferentes sistemas finales a través de la red     
+
 
