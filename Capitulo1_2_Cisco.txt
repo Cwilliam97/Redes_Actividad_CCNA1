@@ -70,5 +70,24 @@ Por ejemplo, el protocolo HTTP (Hypertext Transfer Protocol) se utiliza para la 
 Los protocolos desempeñan un papel fundamental en las comunicaciones de redes al establecer las reglas y los estándares que permiten que los dispositivos se comuniquen entre sí de manera efectiva. Los protocolos definen cómo se deben formatear, enviar, recibir y procesar los datos en una red. Proporcionan un conjunto de reglas comunes que los dispositivos deben seguir para garantizar una comunicación exitosa. 
 
 El proceso de encapsulamiento de datos es una técnica utilizada en las redes para agregar información de control adicional a los datos antes de ser transmitidos. Cada capa del modelo TCP/IP agrega su propia información de control a los datos, creando así una estructura en capas conocida como Protocol Data Unit (PDU). El encapsulamiento de datos permite que los datos sean transmitidos de manera eficiente y segura a través de la red. 
-(La imagen esta en el documento PDF).    
+(La imagen esta en el documento PDF).
+
+9. Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
+ 
+En el modelo TCP/IP, las cuatro capas son:  
+
+1. Capa de aplicación: esta capa proporciona servicios de red a las aplicaciones de usuario. Los protocolos comunes de esta capa incluyen HTTP, FTP, SMTP y Telnet.  
+2. Capa de transporte: esta capa proporciona servicios de transporte de extremo a extremo, como la segmentación y el control de flujo. Los protocolos comunes de esta capa incluyen TCP y UDP. 27  
+3. Capa de Internet: esta capa proporciona servicios de enrutamiento y direccionamiento de paquetes a través de la red. El protocolo común de esta capa es el Protocolo de Internet (IP). 27  
+4. Capa de acceso a la red: esta capa proporciona servicios de acceso a la red física, como la transmisión de bits a través de un medio físico. Los protocolos comunes de esta capa incluyen Ethernet y Wi-Fi. 27  
+
+En el modelo OSI, las siete capas son:  
+
+1. Capa física: esta capa se encarga de la transmisión de bits a través de un medio físico. 26  
+2. Capa de enlace de datos: esta capa proporciona servicios de acceso al medio y control de errores. Los protocolos comunes de esta capa incluyen el protocolo de control de enlace lógico (LLC) y el protocolo de control de acceso al medio (MAC). 26  
+3. Capa de red: esta capa proporciona servicios de enrutamiento y direccionamiento de paquetes a través de la red. El protocolo común de esta capa es el Protocolo de Internet (IP). 
+4. Capa de transporte: esta capa proporciona servicios de transporte de extremo a extremo, como la segmentación y el control de flujo. Los protocolos comunes de esta capa incluyen TCP y UDP. 26  
+5. Capa de sesión: esta capa proporciona servicios de establecimiento, mantenimiento y finalización de sesiones entre dispositivos de red. 26  
+6. Capa de presentación: esta capa proporciona servicios de representación de datos, como la codificación y decodificación de datos. 
+7. Capa de aplicación: Su función principal es permitir la comunicación y la interoperabilidad entre las aplicaciones en diferentes sistemas finales a través de la red     
 
