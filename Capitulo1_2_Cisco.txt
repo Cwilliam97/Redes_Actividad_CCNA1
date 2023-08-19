@@ -40,3 +40,121 @@ Un ejemplo de esto puede ser el fortalecimiento de la seguridad del Reuter con u
 
 
 
+3. Investigar qué son las redes orientadas y no orientadas a la conexión.  
+
+Redes orientadas a la conexión: En este tipo de redes, se establece una conexión dedicada y continua entre 
+el origen y el destino antes de que se pueda transmitir cualquier dato. Esta conexión se mantiene durante 
+toda la duración de la comunicación y se reserva un ancho de banda específico para esa conexión. 
+
+Un ejemplo de red orientada a la conexión es el sistema telefónico conmutado por circuito, donde se 
+establece un circuito dedicado para una llamada telefónica y se mantiene abierto hasta que se finaliza la 
+llamada. 
+
+Redes no orientadas a la conexión: En este tipo de redes, no se establece una conexión dedicada antes de la
+transmisión de datos. En cambio, los datos se dividen en paquetes individuales y se envían de manera 
+independiente a través de la red. Cada paquete contiene información de direccionamiento que indica su 
+origen y destino, lo que permite que los paquetes sigan rutas diferentes y se reensamblen en el destino 
+final. Un ejemplo de red no orientada a la conexión es Internet, donde los datos se transmiten en forma de 
+paquetes a través de la red sin la necesidad de una conexión dedicada. 
+
+
+2. Comparar y contrastar los siguientes términos: RED, LAN, WAN,
+INTERNETWORK E INTERNET.
+
+RTA: 
+Los términos "red", "LAN", "WAN", "internetwork" e "Internet" están relacionados con la interconexión de 
+dispositivos y la comunicación de datos, pero tienen diferencias en cuanto a su alcance y características. 
+A continuación, se compara y contrasta cada uno de estos términos: 
+
+Red: Una red es un conjunto de dispositivos interconectados que pueden comunicarse entre sí para compartir 
+recursos y datos. Puede ser una red local (LAN) o una red amplia (WAN). Una red puede ser privada, como una 
+red doméstica o empresarial, o pública, como Internet. Las redes pueden utilizar diferentes tecnologías 
+y protocolos para permitir la comunicación entre los dispositivos. 
+
+LAN (Local Área Network): Una LAN es una red de área local que abarca un área geográfica limitada, como una 
+oficina, un edificio o un campus. Está diseñada para permitir la comunicación entre dispositivos en un área 
+cercana y generalmente es propiedad y está controlada por una organización. Las LAN suelen ser rápidas 
+y confiables, y se utilizan para compartir recursos como archivos, impresoras y conexiones a Internet 
+dentro de una organización. 
+
+WAN (Wide Área Network): Una WAN es una red de área amplia que abarca un área geográfica más grande, como 
+una ciudad, un país o incluso a nivel global. Conecta múltiples LAN y permite la comunicación entre 
+dispositivos en diferentes ubicaciones geográficas. Las WAN suelen utilizar servicios de telecomunicaciones,
+como líneas telefónicas, fibra óptica o conexiones inalámbricas, para transmitir datos a larga distancia. 
+Ejemplos de WAN incluyen redes de sucursales de una empresa o la infraestructura de telecomunicaciones que 
+conecta diferentes países  
+
+Internetwork: Una internetwork es una red de redes interconectadas. Es una infraestructura que permite la 
+comunicación entre diferentes redes, ya sean LAN o WAN. Las internetworks se crean mediante la interconexión
+de dispositivos de red, como Reuters, que enrutan los datos entre las diferentes redes. Un ejemplo común de
+internetwork es Internet, que es una red global de redes. 
+
+
+4. Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
+RTA:
+La diferencia entre una Tarjeta de Interfaz de Red (NIC), un puerto físico y una interfaz de red radica en 
+su función y ubicación en la estructura de una red. 
+
+Tarjeta de Interfaz de Red (NIC): Una Tarjeta de Interfaz de Red, también conocida como adaptador de red, 
+es un dispositivo que se inserta en un dispositivo final, como una computadora o un servidor, para 
+proporcionar la conexión física con la red. La NIC se encarga de convertir los datos en un formato adecuado
+para ser transmitidos a través del medio de transmisión, como cables de cobre o fibra óptica. 
+Es responsable de enviar y recibir datos entre el dispositivo final y la red. 
+
+Puerto físico: Un puerto físico es un conector o toma en un dispositivo de red donde se conecta el medio de
+transmisión, como un cable Ethernet. Los puertos físicos se encuentran en los dispositivos de red, como 
+Routers, switches y puntos de acceso inalámbrico. Cada puerto físico está asociado con una interfaz de red 
+específica y permite la conexión de dispositivos finales o la interconexión de dispositivos de red. 
+
+Interfaz de red: Una interfaz de red es un puerto especializado en un dispositivo de internetworking, como 
+un Reuter, que se conecta con redes individuales. Las interfaces de red son los puertos de un Router que se 
+utilizan para interconectar diferentes redes y enrutar los datos entre ellas. Cada interfaz de red está 
+asociada con un puerto físico y tiene una dirección IP única para identificarla en la red. 
+
+En resumen, una Tarjeta de Interfaz de Red (NIC) es un dispositivo que se inserta en un dispositivo final 
+para proporcionar la conexión física con la red, mientras que un puerto físico es un conector en un 
+dispositivo de red donde se conecta el medio de transmisión. Por otro lado, una interfaz de red es un 
+puerto especializado en un dispositivo de internetworking que se utiliza para interconectar diferentes 
+redes y enrutar los datos entre ellas. 
+
+6.Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
+
+RTA:
+Una Unidad de Datos del Protocolo (PDU, por sus siglas en inglés) es una unidad de información que se 
+utiliza en la comunicación de datos a través de una red. Es la unidad básica de información que se envía 
+y se recibe entre los dispositivos de una red. 
+
+La PDU puede variar dependiendo del protocolo utilizado. Por ejemplo, en el modelo TCP/IP, la PDU se 
+denomina segmento en la capa de transporte (TCP) y datagrama en la capa de red (IP). En el modelo OSI, 
+la PDU se denomina trama en la capa de enlace de datos y paquete en la capa de red. 
+
+La PDU contiene los datos que se transmiten, así como la información de control necesaria para su correcta 
+entrega y procesamiento en la capa correspondiente. Esta información de control puede incluir direcciones 
+de origen y destino, números de secuencia, información de error y otros campos necesarios para el 
+funcionamiento del protocolo.
+ 
+En resumen, una Unidad de Datos del Protocolo (PDU) es la unidad básica de información que se envía y se 
+recibe en una red. Varía dependiendo del protocolo utilizado y contiene los datos y la información de 
+control necesaria para su correcta entrega y procesamiento. 
+
+8. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
+RTA:
+Los modelos de protocolo y modelos de referencia son dos tipos básicos de modelos de networking.  
+Un modelo de protocolo proporciona un modelo que coincide fielmente con la estructura de una suite de 
+protocolo en particular. El conjunto jerárquico de protocolos relacionados en una suite representa 
+típicamente toda la funcionalidad requerida para interconectar la red humana con la red de datos. 
+Por ejemplo, el modelo TCP/IP es un modelo de protocolo porque describe las funciones que se producen en 
+cada capa de los protocolos dentro del conjunto TCP/IP.  
+
+Por otro lado, un modelo de referencia proporciona una referencia común para mantener consistencia en todos 
+los tipos de protocolos y servicios de red. Un modelo de referencia no está pensado para ser una 
+especificación de implementación ni para proporcionar un nivel de detalle suficiente para definir de 
+precisa los servicios de la arquitectura de red. El propósito principal de un modelo de referencia es 
+asistir en la comprensión más clara de las funciones y los procesos involucrados. El modelo de interconexión
+de sistema abierto (OSI) es un ejemplo de modelo de referencia de internetwork ampliamente conocido. 
+
+En resumen, la principal diferencia entre los modelos de protocolo y modelos de referencia es que los 
+modelos de protocolo se centran en describir los protocolos específicos de una suite de protocolos, 
+mientras que los modelos de referencia proporcionan una referencia común para mantener la consistencia en 
+todos los tipos de protocolos y servicios de red. 
+
