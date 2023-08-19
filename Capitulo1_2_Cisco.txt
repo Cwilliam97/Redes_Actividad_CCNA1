@@ -1,0 +1,23 @@
+PREGUNTAS DEL CAPITULO 1:
+
+2. Describir las características de las arquitecturas de red: tolerante a fallas, escalabilidad, calidad del servicio y seguridad. Mostrar sus respectivos ejemplos. 
+
+RTA: Tolerancia fallos: una arquitectura de red tolerante a fallas es capaz de mantener la conectividad y el funcionamiento de la red incluso en casos de que ocurran fallos. En los dispositivos o enlaces de la red. Esto se logra mediante la implementación de redundancia en los componentes críticos de la red, de manera que, si un dispositivo o enlace falla, la red puede redirigir el tráfico de rutas alternativas. 
+
+Un ejemplo de esto es el protocolo de enrutamiento OSPF (Open Shortest Path First), utiliza algoritmos para calcular la ruta más eficiente y alternativas en caso de fallas en la red. 
+
+Escalabilidad: una arquitectura de red escalable escapaz de crecer y adaptarse a medida que aumenta la demanda de usuarios y servicios en la red. Esto implica que la red puede soportar un mayor número de dispositivos y usuarios sin degradar su rendimiento. 
+
+Un ejemplo de esto es la tecnología virtualización de redes, que permite crear redes virtuales dentro de una infraestructura física compartida, lo que facilita la escalabilidad al permitir la creación y gestión de las redes de manera más eficiente. 
+
+Calidad de servicios (QoS): Una arquitectura de red con calidad del servicio garantiza que los diferentes tipos tráfico (como voz, video, datos) sean tratados de manera prioritaria y se les asigne los recursos necesarios para garantizar un rendimiento optimo. Esto implica implementación de mecanismos de priorización, control de congestión y gestión de ancho de banda. 
+
+Un ejemplo de esto es el protocolo de control de admisión de llamadas (CAC) en la red de voz sobre IP (VoIP), se encarga de controlar la cantidad de llamadas que se pueden realizar simultáneamente para evitar la congestión de la red y garantizar una calidad de voz adecuada. 
+
+Seguridad: Una arquitectura de red segura protege la información y los recursos de la red contra accesos no autorizados, ataques y amenaza. Esto implica la implementación de muchas herramientas y procedimientos para combatir los defectos de seguridad inherente en la arquitectura de red. 
+
+Un ejemplo de esto puede ser el fortalecimiento de la seguridad del Reuter con un sólido inicio de sesión y cambiando las credenciales predeterminadas. 
+
+
+
+
