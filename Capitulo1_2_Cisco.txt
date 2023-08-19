@@ -59,3 +59,9 @@ Internet: Por otro lado, "Internet" es una red global de redes interconectadas q
 
 En resumen, "internetwork" es un término más general que describe la interconexión de redes, mientras que "Internet" se refiere específicamente a la red global de redes interconectadas que utilizamos a diario. 
 
+5. ¿Por qué se dice que un protocolo es independiente de la tecnología? 
+
+Se dice que un protocolo es independiente de la tecnología porque describe las funciones y reglas de comunicación sin especificar cómo se deben implementar esas funciones en un medio o tecnología específica. Un protocolo define qué funciones deben realizarse, pero no cómo realizarlas. Esto permite que un protocolo sea utilizado en diferentes tecnologías y medios de transmisión sin necesidad de modificarlo. 
+
+Por ejemplo, el protocolo HTTP (Hypertext Transfer Protocol) se utiliza para la comunicación entre un cliente y un servidor en la web. HTTP define cómo se deben solicitar y enviar recursos web, pero no especifica qué tecnología o lenguaje de programación se debe utilizar para implementar un servidor web o un navegador. Esto permite que HTTP sea independiente de la tecnología y se pueda utilizar en diferentes plataformas y sistemas 
+
