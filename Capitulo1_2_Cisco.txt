@@ -1,0 +1,21 @@
+Preguntas de lectura: Capítulo 1
+1. Responda brevemente, ¿Qué son los datos? ¿Qué es una red de datos? ¿Qué
+es una red convergente?
+RTA:
+
+DATOS: Son información o hechos que se recopilan y se alamacenan para su posterior uso o análisis.Pueden
+ser números, palabras, imágenes, videos, etc.
+
+RED DE DATOS: Es una infraestrucutra que permite la transferencia de datos entre diferentes dispositivos.
+Consiste en una serie de dispositivos interconectados, como computadoras servicios, enrutadores 
+y switches, que utilizan protocolos de red para comunicarse y compartir información.
+Su objetivo principal es facilitar la transferencia eficiente y segura de datos entre los 
+dispositivos conectados.
+
+RED CONVERGENTE: es una plataforma de comunicación que permite la transmisión de diferentes
+tipos de comunicación, como datos, voz y videos, a través de una única infraestructura de
+red. En una red convergente, el diferente servicio de comunicación utiliza la misma red para
+transmitir sus señales, eliminando la necesidad de mantener redes separadas para cada tipo 
+de servicio.
+
+
